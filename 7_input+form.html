@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input, form</title>
+  </head>
+  <body>
+    <!-- container -> 포함 (감싸주는거임) -->
+    <form action="" method="get">
+      <!-- input, name, type, value -->
+      <!-- 1. label -->
+      <!-- 2. 속성 : required, placeholder -->
+      <label>이름 : <input name="text" type="text" /></label>
+      <label for="number">나이 : <input name="number" type="number" /></label
+      ><br />
+      <input id="number" type="number" /> 생일 :
+      <label>
+        <input
+          name="job"
+          type="text"
+          required
+          placeholder="직업을 알려주세요"
+        />
+      </label>
+      <br />
+
+      좋아하는 색상 :
+      <input type="color" type="color" />
+      <!-- button : 누르는 형태로 받음 -->
+      <button>제출</button>
+      <!-- 주소창을 통해서 input에 연결된 값들을 전달하는 방식 GET -->
+    </form>
+  </body>
+</html>
